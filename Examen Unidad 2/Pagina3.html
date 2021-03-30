@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 3</title>
+</head>
+<body>
+    <header>
+        <h1 style = "text-align: center;">INFORMACIÓN</h1>
+        <nav></nav>
+    </header>
+
+    <main>
+      
+<p><h2  align = "center">Si quieres recibir la mejor información, regístrate</h2></p>
+        <form action="registro.php" method="GET">
+           
+            <table align="center">
+                <tr>
+                    <td><label for="nombre">Nombre</label></td>
+                    <td><input type="text" name="nombre" id="nombre" value=""> </td>
+                </tr>
+                <tr>
+                    <td><label for="primerApellido">Primer Apellido</label></td>
+                    <td><input type="text" name="primerApellido" id="primerApellido" value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="segundoApellido">Segundo Apellido</label></td>
+                    <td><input type="text" name="segundoApellido" id="segundoApellido" value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="domicilio">Domicilio</label></td>
+                    <td><input type="text" name="domicilio" id="domicilio" value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="codigoPostal">Codigo Postal</label></td>
+                    <td>
+                        <input type="number" name="codigoPostal" id="codigoPostal" value="" min ="0">
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Telefono</label></td>
+                    <td>
+                        <label>
+                            <input type="number" name="Telefono" id="Telefono" min="0"> 
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>e-mail</label></td>
+                    <td><input type="text" name="email" id="email" ></td>
+                </tr>
+                <tr>
+                    <td><label>Confirmar e-mail</label></td>
+                    <td><input type="text" name="confirmar" id="confirmar" ></td>
+                </tr>
+                <tr>
+                    
+                    <td><input type="reset" value="Borrar"></td>
+                    <td><input type="submit" value="Enviar"></td>
+            </table>
+         </form>
+
+    </main>
+
+   
+        <p><a href ="examen2_SMBM.html"> PÁGINA PRINCIPAL</a></p>
+    
+</body>
+</html>
